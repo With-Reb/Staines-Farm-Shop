@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Staines Farm Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="container">
+       <img src="465741459_1171357217753594_8926536926219245897_n.jpg" alt="Staines Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href=#location>Find Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Fresh Local Produce Every Day</h2>
+      <p>Supporting local farmers and bringing you the best from the land.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Staines Farm Shop is a family-run business providing fresh, locally-sourced fruit and vegetables, We're passionate about sustainable farming and quality products.</p>
+      <p>Open 7 days a week - Monday to Saturday 7:30 - 17:00 and Sunday 10:00 - 15:00.</p>
+      <p>Come visit us at 61 High Street, Whitstable, CT5 1AP</p>
+      <p> Contact us on 01227 262949 or send us a message below ↓ </p>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <img src="IMG_9294.jpg" alt="Veg" class="product-card">
+        <img src="IMG_9295.jpg" alt="Veg" class="product-card">
+        <img src="IMG_9297.jpg" alt="Fruit" class="product-card">
+        <img src="IMG_9299.jpg" alt="black garlic" class="product-card">
+        <img src="IMG_9298.jpg" alt="Merch" class="product-card">
+        <img src="IMG_9322.jpg" alt="Veg" class="product-card">
+        <img src="IMG_9323.jpg" alt="Veg" class="product-card">
+        <img src="IMG_9324.jpg" alt="Fruit" class="product-card">
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+  <div class="container">
+    <h2>What Our Customers Say</h2>
+    <div class="slider">
+      <div class="slide active">
+        <p>“Great shop fresh produce and friendly staff to help you find what you need. Also, staff allowed you free samples of interesting fruit and veg which I personally hadn't seen before. Great shop, definitely worth a visit. 10/10”</p>
+        <h4>- Cameron Hicks</h4>
+      </div>
+      <div class="slide">
+        <p>“A wonderful place for produce with helpful staff and a beautiful selection. They also supply most of the local restaurants! If you’re lucky, you’ll be there while Tilly is working! She’s as amazing as all of the produce on display!”</p>
+        <h4>- A.</h4>
+      </div>
+      <div class="slide">
+        <p>“Always amazing fruit and veg. It’s worth paying that little extra for expertise and there produce will always last at little longer as it hasn’t been driven 1500 miles to the shop. The staff are amazing and even looked after our dog whilst doing our shop eatery today”</p>
+        <h4>- Chris Hill.</h4>
+      </div>
+      <div class="slide">
+        <p>As usual the most wonderful display of fruit , veg and herbs etc . I just bought some Satsumas today because I'd shopped there yesterday for most of my needs but the Satsumas I bought were so good we needed more having finished the others ! The Staff are unfailingly helpful and always smiling and friendly as well as knowledgeable .</p>
+        <h4>Anne Loder</h4>
+      </div>
+    </div>
+    <div class="slider-buttons">
+      <button id="prev">&#8592;</button>
+      <button id="next">&#8594;</button>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="location" class="location">
+    <div class="container">
+    <h2>Find Us</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.414750994248!2d1.022147676441493!3d51.35867162155776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d933435a5729b1%3A0xce94b52c183e2814!2sStaines%20Farm%20Shop!5e0!3m2!1sen!2suk!4v1750752925673!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Staines Farm Shop. All rights reserved - Designed by Design With Reb</p>
+       <p><a href="https://www.instagram.com/staines_farm_shop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram" class="footer"></a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=100046379810224" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook" class="footer"></a></p>
+    </div>
+  </footer>
+
+  <script>
+  const slides = document.querySelectorAll('.slide');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  let current = 0;
+
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    slides[index].classList.add('active');
+  }
+
+  next.addEventListener('click', () => {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+  });
+
+  prev.addEventListener('click', () => {
+    current = (current - 1 + slides.length) % slides.length;
+    showSlide(current);
+  });
+
+  // Auto-slide every 5 seconds
+  setInterval(() => {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+  }, 5000);
+</script>
+
+</body>
+</html>
