@@ -112,11 +112,30 @@ nav a {
   padding: 40px 20px;
 }
 
+/* Make sure form container takes full width */
 form {
-  display: grid;
-  gap: 15px;
-  max-width: 400px;
-  margin: auto;
+  width: 100%;
+  max-width: 600px; /* Optional, you can adjust */
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+/* Make inputs and textarea full width */
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+/* Adjust padding on mobile */
+@media (max-width: 768px) {
+  form {
+    padding: 0 1rem;
+  }
 }
 
 input, textarea {
