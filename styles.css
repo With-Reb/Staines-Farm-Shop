@@ -92,14 +92,14 @@ nav a {
 }
 
 .product-grid {
-   display: grid;
+    display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
 
 .product-card {
-  width: 100%;
+   width: 100%;
   border-radius: 30px;
   object-fit: cover;
   padding: 3rem 1rem;
