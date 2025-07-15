@@ -4,61 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Staines Farm Shop</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <header class="container">
-       <img src="465741459_1171357217753594_8926536926219245897_n.jpg" alt="Staines Logo" class="logo" />
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href=#location>Find Us</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <div class="logo">Staines Farm Shop</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <a href="#location">Find Us</a>
+    </nav>
   </header>
 
   <section class="hero">
-    <div class="container">
-      <h2>Fresh Local Produce Every Day</h2>
-      <p>We are very proud to say that we supply over 20 restaurants and cafes locally. For any wholesale enquiries, please feel free to drop us a message <a href="#contact">below!</a></p>
-      <p>Open 7 days a week:</p>
+  <div class="bg-1"></div>
+  <div class="bg-2"></div>
+  <div class="bg-3"></div>
+  <div class="bg-4"></div>
+  <div class="bg-5"></div>
+  <div class="bg-6"></div>
+  <div class="bg-7"></div>
+  <div class="hero-text">
+    <h1>Fresh, Local & Delicious</h1>
+    <br>
+    <a href="#contact" class="btn">Visit Us</a>
+  </div>
+</section>
 
-         <p>Monday – Saturday – 7.30 – 17.00</p>
+  <section id="about" class="content-section">
+    <div class="container">
+      <h2>About Us</h2>
+           <p>Staines Farm Shop is a high-end greengrocer situated in the heart of Whitstable’s bustling high street. We offer a huge variety of produce, incorporating local farms as much as possible. On top of that, we work with the very best suppliers to import quality produce from all over the world.
+
+We pride ourselves in being the absolute best at what we do, and it is our goal to make sure every customer’s needs are met when visiting our lovely shop</p>
+<p>Open 7 days a week:</p>
+      <p>Monday – Saturday – 7.30 – 17.00</p>
          <p>Sunday – 10.00 – 15.00</p>
          <p> 01227 262949 </p>
     </div>
   </section>
 
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Staines Farm Shop is a high-end greengrocers situated in the heart of Whitstable’s bustling high street. We offer a huge variety of produce, incorporating local farms as much as possible. On top of that, we work with the very best suppliers to import quality produce from all over the world.
-
-We pride ourselves in being the absolute best at what we do and it is our goal to make sure every customers needs are met when visiting our lovely shop</p>
-    </div>
-  </section>
-
-  <section id="products" class="products">
+  <section id="products" class="content-section alt-bg">
     <div class="container">
       <h2>Our Products</h2>
-      <div class="product-grid">
-        <img src="1000031920.jpg" alt="Veg" class="product-card">
-        <img src="1000028461.jpg" alt="Veg" class="product-card">
-        <img src="1000028462.jpg" alt="Fruit" class="product-card">
-        <img src="1000028466.jpg" alt="black garlic" class="product-card">
-        <img src="1000028784.jpg" alt="Merch" class="product-card">
-        <img src="1000028806.jpg" alt="Veg" class="product-card">
-        <img src="1000028822.jpg" alt="Veg" class="product-card">
-      </div>
+      <p>We are very proud to say that we supply over 20 restaurants and cafes locally.</p>
+      <p>For any wholesale enquiries, please feel free to drop us a message below</p>
     </div>
   </section>
 
-  <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials">
   <div class="container">
     <h2>What Our Customers Say</h2>
     <div class="slider">
@@ -86,25 +83,18 @@ We pride ourselves in being the absolute best at what we do and it is our goal t
   </div>
 </section>
 
-  <section id="contact" class="contact">
+  <section id="contact" class="content-section">
     <div class="container">
       <h2>Contact Us</h2>
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" required></textarea>
-
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+      <p>Come visit us or get in touch via phone or email. We look forward to seeing you! </p>
+      <p> 01227 262949 </p>
+      <br>
+      <br>
+        <p><a href="mailto:stainesfarmshopwhitstable@gmail.com" class="btn">Email Us</a></p>
+         </div>
   </section>
 
-  <section id="location" class="location">
+    <section id="location" class="location">
     <div class="container">
     <h2>Find Us</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.414750994248!2d1.022147676441493!3d51.35867162155776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d933435a5729b1%3A0xce94b52c183e2814!2sStaines%20Farm%20Shop!5e0!3m2!1sen!2suk!4v1750752925673!5m2!1sen!2suk"  height="300"
@@ -115,43 +105,11 @@ We pride ourselves in being the absolute best at what we do and it is our goal t
   style="border-radius: 12px;"></iframe>
     </div>
   </section>
-  
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Staines Farm Shop. All rights reserved - Designed by Design With Reb</p>
-       <p><a href="https://www.instagram.com/staines_farm_shop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram" class="footer"></a></p>
-        <p><a href="https://www.facebook.com/profile.php?id=100046379810224" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook" class="footer"></a></p>
-    </div>
+     <p>&copy; 2025 Staines Farm Shop. All rights reserved - Designed by Design With Reb</p>
+       <p><a href="https://www.instagram.com/staines_farm_shop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram" class="icons"></a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=100046379810224" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook" class="icons"></a></p>
   </footer>
-
-  <script>
-  const slides = document.querySelectorAll('.slide');
-  const prev = document.getElementById('prev');
-  const next = document.getElementById('next');
-  let current = 0;
-
-  function showSlide(index) {
-    slides.forEach(slide => slide.classList.remove('active'));
-    slides[index].classList.add('active');
-  }
-
-  next.addEventListener('click', () => {
-    current = (current + 1) % slides.length;
-    showSlide(current);
-  });
-
-  prev.addEventListener('click', () => {
-    current = (current - 1 + slides.length) % slides.length;
-    showSlide(current);
-  });
-
-  // Auto-slide every 5 seconds
-  setInterval(() => {
-    current = (current + 1) % slides.length;
-    showSlide(current);
-  }, 5000);
-</script>
-
 </body>
 </html>
