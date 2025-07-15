@@ -39,7 +39,7 @@ header .logo {
 
 }
 .logo img {
-  height: 100px; /* adjust as needed */
+  height: 150px; /* adjust as needed */
   display: block;
   border-radius: 2rem;
 }
@@ -50,6 +50,7 @@ header nav a {
   color: #333;
   font-weight: 500;
   transition: color 0.3s;
+  text-align: right;
 }
 
 header nav a:hover {
@@ -129,6 +130,8 @@ header nav a:hover {
   z-index: 10;
   color: #fff;
   text-align: center;
+  background: #3c6e4774;
+  padding: 200px 40px;
 }
 @media (max-width: 768px) {
   .hero-text h1 {
@@ -154,6 +157,9 @@ header nav a:hover {
 .hero-text h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  text-shadow: #3c6e47 1rem;
+  text-decoration-line: solid;
+  
 }
 
 .hero-text p {
@@ -179,6 +185,9 @@ header nav a:hover {
 .content-section {
   padding: 80px 20px;
   align-items: center;
+  border-color: #3c6e47;
+  border-width: 0.2rem;
+  border-style: solid;
 }
 
 .content-section h2 {
@@ -206,10 +215,16 @@ header nav a:hover {
   background: #f9f9f9;
   padding: 40px 20px;
   text-align: center;
+  border-color: #3c6e47;
+  border-width: 0.2rem;
+  border-style: solid;
 }
 
 .testimonials h2 {
   margin-bottom: 30px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .slider {
