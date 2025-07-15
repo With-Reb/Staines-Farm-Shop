@@ -166,6 +166,20 @@ header nav a:hover {
   font-size: 1.2rem;
   margin-bottom: 30px;
 }
+.call-btn {
+  background: #3c6e47; /* Your brand green or any color you like */
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.call-btn:hover {
+  background: #689d32;
+}
 
 .btn {
   background: #3c6e47;
